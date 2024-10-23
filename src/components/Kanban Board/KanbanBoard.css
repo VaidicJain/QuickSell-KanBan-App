@@ -1,0 +1,9 @@
+.kanban-board {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F4F6FA;
+    height: 100vh;
+    width: 97.5vw;
+    /* flex-wrap: wrap; */
+  }

@@ -1,0 +1,38 @@
+.header {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerBox {
+    background-color: aliceblue;
+    height: 60%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+  
+  .headerBox img {
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .Heading {
+    font-size: 1.1rem;
+    margin-right: 10px;
+  }
+  @media only screen and (max-width:765px){
+    .headerBox{
+        width: 25%;
+    }
+   }
+  @media only screen and (max-width:420px){
+    .headerBox{
+        width: 35%;
+    }
+   }

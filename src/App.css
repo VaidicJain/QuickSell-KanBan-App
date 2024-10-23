@@ -1,0 +1,15 @@
+/* App-wide styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width:840px){
+  .kanban-board{
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .headerBox{
+    width: 20%;
+  }
+}
